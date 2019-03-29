@@ -15,7 +15,7 @@
 		C6412F0B1E76F03900F467FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6412F091E76F03900F467FE /* LaunchScreen.storyboard */; };
 		C6412F161E76F03900F467FE /* SimulateLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6412F151E76F03900F467FE /* SimulateLocationTests.swift */; };
 		C6412F211E76F03900F467FE /* SimulateLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6412F201E76F03900F467FE /* SimulateLocationUITests.swift */; };
-		C6412F2F1E76F05F00F467FE /* ZhongHang.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C6412F2E1E76F05F00F467FE /* ZhongHang.gpx */; };
+		C6412F2F1E76F05F00F467FE /* tiejian.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C6412F2E1E76F05F00F467FE /* tiejian.gpx */; };
 		C6412F321E7705AD00F467FE /* LocationTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6412F311E7705AD00F467FE /* LocationTransform.swift */; };
 		C6904EB61EAE3DD800F4EF40 /* transform.html in Resources */ = {isa = PBXBuildFile; fileRef = C6904EB41EAE3DD800F4EF40 /* transform.html */; };
 		C6904EB71EAE3DD800F4EF40 /* transform.js in Resources */ = {isa = PBXBuildFile; fileRef = C6904EB51EAE3DD800F4EF40 /* transform.js */; };
@@ -54,7 +54,7 @@
 		C6412F1C1E76F03900F467FE /* SimulateLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimulateLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6412F201E76F03900F467FE /* SimulateLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulateLocationUITests.swift; sourceTree = "<group>"; };
 		C6412F221E76F03900F467FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6412F2E1E76F05F00F467FE /* ZhongHang.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ZhongHang.gpx; sourceTree = "<group>"; };
+		C6412F2E1E76F05F00F467FE /* tiejian.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tiejian.gpx; sourceTree = "<group>"; };
 		C6412F311E7705AD00F467FE /* LocationTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTransform.swift; sourceTree = "<group>"; };
 		C6904EB41EAE3DD800F4EF40 /* transform.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = transform.html; sourceTree = "<group>"; };
 		C6904EB51EAE3DD800F4EF40 /* transform.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = transform.js; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 				C6412F071E76F03900F467FE /* Assets.xcassets */,
 				C6412F091E76F03900F467FE /* LaunchScreen.storyboard */,
 				C6412F0C1E76F03900F467FE /* Info.plist */,
-				C6412F2E1E76F05F00F467FE /* ZhongHang.gpx */,
+				C6412F2E1E76F05F00F467FE /* tiejian.gpx */,
 				C63DE30320F1283400952153 /* Sanlizhaiyuan.gpx */,
 			);
 			name = Resources;
@@ -226,7 +226,7 @@
 				TargetAttributes = {
 					C6412EFA1E76F03900F467FE = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = HG8SBJDJPT;
+						DevelopmentTeam = G4T7Z79VCB;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
@@ -270,7 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6412F0B1E76F03900F467FE /* LaunchScreen.storyboard in Resources */,
-				C6412F2F1E76F05F00F467FE /* ZhongHang.gpx in Resources */,
+				C6412F2F1E76F05F00F467FE /* tiejian.gpx in Resources */,
 				C6412F081E76F03900F467FE /* Assets.xcassets in Resources */,
 				C6904EB61EAE3DD800F4EF40 /* transform.html in Resources */,
 				C6412F061E76F03900F467FE /* Main.storyboard in Resources */,
@@ -472,10 +472,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HG8SBJDJPT;
+				DEVELOPMENT_TEAM = G4T7Z79VCB;
 				INFOPLIST_FILE = SimulateLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cc.caver.SimulateLocation;
+				PRODUCT_BUNDLE_IDENTIFIER = rocks.slix.SimulateLocationa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -485,10 +485,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HG8SBJDJPT;
+				DEVELOPMENT_TEAM = G4T7Z79VCB;
 				INFOPLIST_FILE = SimulateLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cc.caver.SimulateLocation;
+				PRODUCT_BUNDLE_IDENTIFIER = rocks.slix.SimulateLocationa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
